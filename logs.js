@@ -1,4 +1,4 @@
-const COLOR = require(`colors`);
+const COLOR = require(`chalk`);
 
 exports.warn = (...message) => {
   console.log(COLOR.yellow(`<aviso>`))
@@ -13,10 +13,10 @@ exports.error = (...message) => {
 };
 
 exports.info = (...message) => {
-  console.log(COLOR.brightGreen(`[MIRROR] ` + COLOR.white(...message)));
+  console.log(COLOR.green(`[DEBUG] ` + COLOR.white(...message)));
 };
 
 exports.message = message => {
-  console.log(COLOR.brightGreen(`[Selfbot] ` + COLOR.white(...message)));
+  console.log(COLOR.green(`[Selfbot] ` + COLOR.white(...message)));
 };
 
