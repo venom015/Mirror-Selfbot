@@ -18,3 +18,4 @@
  - Lead-developer: Nicko
 
 -----
+![alt text](https://cdn.discordapp.com/attachments/817854783347359805/818944422120390726/thumb.png)
