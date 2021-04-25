@@ -20,3 +20,4 @@ exports.message = message => {
   console.log(COLOR.brightGreen(`[Selfbot] ` + COLOR.white(...message)));
 };
 
+
